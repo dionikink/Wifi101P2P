@@ -492,7 +492,6 @@ uint8_t WiFiClass::beginP2P(const char *name, uint8_t channel)
 			!(_status & WL_DISCONNECTED) &&
 			millis() - start < 60000) {
 		m2m_wifi_handle_events(NULL);
-        SERIAL_PORT_MONITOR.println(_status & WL_DISCONNECTED);
 	}
 	if (!(_status & WL_CONNECTED)) {
 		_mode = WL_RESET_MODE;

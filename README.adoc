@@ -1,9 +1,8 @@
-= WiFi library for the Arduino WiFi Shield 101 and MKR1000 board =
+= P2P Mode for WiFi library for the Arduino WiFi Shield 101 and MKR1000 board =
 
 image:https://travis-ci.org/arduino-libraries/WiFi101.svg?branch=master["Build Status", link="https://travis-ci.org/arduino-libraries/WiFi101"]
 
-This library implements a network driver for devices based
-on the ATMEL WINC1500 WiFi module.
+This library attempts to provide an implemention for P2P mode (WiFi Direct) for the Wifi101 library.
 
 For more information about this library please visit us at
 https://www.arduino.cc/en/Reference/WiFi101
